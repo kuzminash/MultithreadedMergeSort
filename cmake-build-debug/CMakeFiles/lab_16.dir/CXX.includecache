@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/parallel_sort.hpp
+parallel_sort.inl
+../include/parallel_sort.inl
+thread
+-
+vector
+-
+
+../include/parallel_sort.inl
+vector
+-
+algorithm
+-
+thread
+-
+parallel_sort.hpp
+../include/parallel_sort.hpp
+
+/home/kuzminash/CLionProjects/lab_16/src/main.cpp
+iostream
+-
+parallel_sort.hpp
+/home/kuzminash/CLionProjects/lab_16/src/parallel_sort.hpp
+vector
+-
+cassert
+-
+ctime
+-
+
